@@ -2,8 +2,7 @@
 induction t with u hu,
 -- prove base case
 repeat {rw add_zero},
-intro p,
-exact p,
+cc,
 -- prove induction step
 repeat {rw add_succ},
 intro p,
