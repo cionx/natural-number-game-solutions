@@ -1,0 +1,7 @@
+intro f,
+intro j,
+intro p,
+have q: Q := j(p),
+have g: (Q → R) := f(p),
+have r: R := g(q),
+exact r,
