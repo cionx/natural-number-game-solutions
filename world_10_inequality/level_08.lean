@@ -1,0 +1,6 @@
+rw le_iff_exists_add at h ⊢,
+repeat {rw ← add_one_eq_succ},
+cases h with c hc,
+use c,
+rw hc,
+simp,
