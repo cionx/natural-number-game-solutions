@@ -1,0 +1,5 @@
+intro p,
+rw add_comm t a at p,
+rw add_comm t b at p,
+apply add_right_cancel,
+exact p,
