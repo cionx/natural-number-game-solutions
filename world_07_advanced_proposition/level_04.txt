@@ -1,0 +1,15 @@
+intro h,
+cases h with hpq hqp,
+intro k,
+cases k with kqr krq,
+split,
+-- show P → R
+intro p,
+apply kqr,
+apply hpq,
+exact p,
+-- show R → P
+intro r,
+apply hqp,
+apply krq,
+exact r,
