@@ -1,0 +1,5 @@
+repeat {rw not_iff_imp_false},
+intro f,
+intro g,
+intro p,
+exact g(f(p)),
