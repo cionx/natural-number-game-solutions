@@ -1,0 +1,6 @@
+rw not_iff_imp_false,
+intro hpnp,
+cases hpnp with p np,
+exfalso,
+apply np,
+exact p,
