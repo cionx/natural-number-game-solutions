@@ -1,0 +1,6 @@
+intro hsa,
+have has := le_succ_self a,
+have e := le_antisymm _ _ hsa has,
+apply ne_succ_self a,
+symmetry at e,
+exact e,
