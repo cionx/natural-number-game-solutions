@@ -1,0 +1,7 @@
+intro h,
+cases h with c hc,
+rw succ_add at hc,
+have hbac := succ_inj(hc),
+rw le_iff_exists_add,
+use c,
+exact hbac,
